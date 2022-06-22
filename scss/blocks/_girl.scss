@@ -1,0 +1,207 @@
+.girl {
+    
+    // .girl__container
+    
+    &__container {
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    // .girl__info-wrapper
+    
+    &__info-wrapper {
+        width: 445px;
+        padding-top: 66px;
+    }
+    
+    // .girl__heading
+    
+    &__heading {
+        font-family: 'Space Mono';
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+    }
+    
+    // .girl__text
+    
+    &__text {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        margin-top: 24px;
+        margin-bottom: 54px;
+    }
+    
+    // .girl__link
+    
+    &__link {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 14px 44px;
+        text-decoration: none;
+        background-color: $Yellow;
+
+        &:hover {
+            background: none;
+            box-shadow: inset 0 0 0 3px $Yellow;
+            color: $Yellow;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .girl {
+    
+        // .girl__container
+        
+        &__container {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 145px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        // .girl__info-wrapper
+        
+        &__info-wrapper {
+            width: 573px;
+            padding-top: 66px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        // .girl__heading
+        
+        &__heading {
+            font-family: 'Space Mono';
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+            text-align: center;
+        }
+        
+        // .girl__text
+        
+        &__text {
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939CAA;
+            margin-top: 24px;
+            margin-bottom: 54px;
+            text-align: center;
+        }
+        
+        // .girl__link
+        
+        &__link {
+            font-family: 'Space Mono';
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            padding: 14px 44px;
+            text-decoration: none;
+            background-color: $Yellow;
+    
+            &:hover {
+                background: none;
+                box-shadow: inset 0 0 0 3px $Yellow;
+                color: $Yellow;
+            }
+        }
+    } 
+}
+@media only screen and (max-width: 375px) {
+    .girl {
+    
+        // .girl__container
+        
+        &__container {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 120px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        // .girl__info-wrapper
+        
+        &__info-wrapper {
+            width: 311px;
+            padding-top: 66px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        // .girl__heading
+        
+        &__heading {
+            font-family: 'Space Mono';
+            font-size: 32px;
+            line-height: 32px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+            text-align: center;
+        }
+        
+        // .girl__text
+        
+        &__text {
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939CAA;
+            margin-top: 32px;
+            margin-bottom: 54px;
+            text-align: center;
+        }
+        
+        // .girl__link
+        
+        &__link {
+            font-family: 'Space Mono';
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            padding: 14px 44px;
+            text-decoration: none;
+            background-color: $Yellow;
+    
+            &:hover {
+                background: none;
+                box-shadow: inset 0 0 0 3px $Yellow;
+                color: $Yellow;
+            }
+        }
+        .hero__img {
+            width: 311px;
+            height: 311px;
+            object-fit: contain;
+        }
+    } 
+}
+

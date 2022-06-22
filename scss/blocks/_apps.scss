@@ -1,0 +1,81 @@
+.apps {
+    
+    // .apps__inner-container
+    
+    &__inner-container {
+        width: 1440px;
+        width: 100%;
+        background-image: url('./../../images/Mask.png');
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-position: center;
+        margin-top: 200px;
+    }
+    
+    // .apps__container
+    
+    &__container {
+        padding-top: 102px;
+        padding-bottom: 102px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    // .apps__heading
+    
+    &__heading {
+        width: 415px;
+        font-family: 'Space Mono';
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #FFFFFF;
+    }
+    
+    // .apps__right
+    
+    &__right {
+        display: flex;
+        gap: 18px;
+    }
+    
+    // .apps__link-1
+    
+    &__link-1 {
+       width: 360px;
+       height: 56px;
+       object-fit: contain;
+    }
+    
+    
+    &__link-span {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: -0.446429px;
+        color: #495567;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .apps {
+        &__container {
+            padding-top: 102px;
+            padding-bottom: 102px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        // .apps__heading
+        
+        &__heading {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+    }
+}
