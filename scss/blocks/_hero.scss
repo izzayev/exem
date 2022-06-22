@@ -1,0 +1,359 @@
+.hero {
+    
+    // .hero__inner-container
+    
+    &__inner-container {
+        width: 100%;
+        background-image: url('./../../images/Bitmap-1.jpg');
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-position: center;
+    }
+    
+    // .hero__container
+    
+    &__container {
+        margin-top: 22px;
+        padding-top: 153px;
+        padding-bottom: 152px;
+        padding-left: 165px;
+    }
+    
+    &__wrapper {
+        width: 500px;
+    }
+    
+    // .hero__heading
+    
+    &__heading {
+        font-family: 'Space Mono';
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+    }
+    
+    &__bottom-wrapper {
+        padding-left: 95px;
+    }
+    
+    // .hero__text
+    
+    &__text {
+        position: relative;
+        font-family: 'Lexend Deca';
+        max-width: 405px;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-top: 40px;
+    }
+    &__text::before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        background-image: url(./../../images/arrov-left.svg);
+        object-fit: contain;
+        width: 203px;
+        height: 16px;
+        background-position: center;
+        top: calc(50%);
+        left: calc(-50% - 57px);
+    }
+    &__text::after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        background-image: url(./../../images/arrov-right.svg);
+        object-fit: contain;
+        width: 452px;
+        height: 151px;
+        background-position: center;
+        top: calc(50%);
+        right: calc(-109.5% - 40px);
+    }
+    
+    &__link-wrapper {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        // .hero__inner-container
+        
+        &__inner-container {
+            background-position: center;    
+            position: relative;
+        }
+        
+        // .hero__container
+        
+        &__container {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 22px;
+            padding-top: 137px;
+            padding-bottom: 217px;
+            padding-left: 97px;
+            padding-right: 97px;
+        }
+        
+        // .hero__wrapper
+        
+        &__wrapper {
+            width: 573px;
+        }
+
+        &__bottom-wrapper {
+            padding-left: 0px;
+        }
+        
+        // .hero__text
+        
+        &__text {
+            position: relative;
+            font-family: 'Lexend Deca';
+            max-width: 405px;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 24px;
+        }
+        &__text::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            background-image: url(./../../images/arrov-left.svg);
+            object-fit: contain;
+            width: 203px;
+            height: 16px;
+            background-position: center;
+            top: calc(100% + 70px);
+            left: calc(-100%);
+        }
+        &__text::after {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            background-image: url(./../../images/arrov-right.svg);
+            object-fit: contain;
+            width: 452px;
+            height: 151px;
+            background-position: center;
+            top: calc(100% + 70px);
+            right: calc(100% - 135px);
+        }
+        
+        &__link-wrapper {
+            margin-top: 32px;
+        }
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .hero {
+        
+        // .hero__inner-container
+        
+        &__inner-container {
+            background-position: center;    
+            position: relative;
+        }
+        
+        // .hero__container
+        
+        &__container {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 22px;
+            padding-top: 80px;
+            padding-bottom: 217px;
+            padding-left: 97px;
+            padding-right: 97px;
+        }
+        
+        // .hero__wrapper
+        
+        &__wrapper {
+            width: 573px;
+        }
+
+        &__bottom-wrapper {
+            padding-left: 0px;
+        }
+        
+        // .hero__text
+        
+        &__text {
+            position: relative;
+            font-family: 'Lexend Deca';
+            max-width: 405px;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 24px;
+        }
+        &__text::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            background-image: url(./../../images/arrov-left.svg);
+            object-fit: contain;
+            width: 203px;
+            height: 16px;
+            background-position: center;
+            top: calc(100% + 70px);
+            left: calc(-100%);
+        }
+        &__text::after {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            background-image: url(./../../images/arrov-right.svg);
+            object-fit: contain;
+            width: 452px;
+            height: 151px;
+            background-position: center;
+            top: calc(100% + 70px);
+            right: calc(100% - 135px);
+        }
+        
+        &__link-wrapper {
+            margin-top: 32px;
+        }
+    }
+}
+
+@media only screen and (max-width: 584px) {
+    .hero {
+
+        &__container {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 22px;
+            padding-top: 115px;
+            padding-bottom: 217px;
+            padding-left: 37px;
+            padding-right: 37px;
+        }
+
+        &__heading {
+            font-family: 'Space Mono';
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: -2px;
+            color: #FFFFFF;
+        }
+
+        &__text {
+            position: relative;
+            font-family: 'Lexend Deca';
+            max-width: 405px;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 18px;
+        }
+        &__text::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            background-image: url(./../../images/arrov-left.svg);
+            object-fit: contain;
+            width: 203px;
+            height: 16px;
+            background-position: center;
+            top: calc(100% + 70px);
+            left: calc(-100%);
+        }
+        &__text::after {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            background-image: url(./../../images/arrov-right.svg);
+            object-fit: contain;
+            width: 452px;
+            height: 151px;
+            background-position: center;
+            top: calc(100% + 70px);
+            right: calc(100% - 80px);
+        }
+        
+        &__link-wrapper {
+            margin-top: 24px;
+        }
+    }
+}
+@media only screen and (max-width: 422px) {
+    .hero {
+
+        &__container {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 22px;
+            padding-top: 115px;
+            padding-bottom: 217px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        &__heading {
+            font-family: 'Space Mono';
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: -2px;
+            color: #FFFFFF;
+        }
+
+        &__text {
+            position: relative;
+            font-family: 'Lexend Deca';
+            max-width: 405px;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FFFFFF;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 24px;
+        }
+        &__text::before {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            background-image: url(./../../images/arrov-left.svg);
+            object-fit: contain;
+            width: 203px;
+            height: 16px;
+            background-position: center;
+            top: calc(100% + 70px);
+            left: calc(-100% - 100px);
+        }
+        &__text::after {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            background-image: url(./../../images/arrov-right.svg);
+            object-fit: contain;
+            width: 452px;
+            height: 151px;
+            background-position: center;
+            top: calc(100% + 70px);
+            right: calc(100% - 50px);
+        }
+        
+        &__link-wrapper {
+            margin-top: 34px;
+        }
+    }
+}
